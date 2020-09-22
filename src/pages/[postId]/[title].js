@@ -28,9 +28,13 @@ const Title = ({ post }) => {
   }
 
   return (
-    <h1>
-      {fetchedpost.id} - {fetchedpost.title}
-    </h1>
+    <React.Fragment>
+      <h1>Hi Im a dynamic route with API call.</h1>
+      <h2>Im also supports server side and client side rendering.</h2>
+      <h1>
+        {fetchedpost.id} - {fetchedpost.title}
+      </h1>
+    </React.Fragment>
   );
 };
 

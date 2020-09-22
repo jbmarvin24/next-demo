@@ -1,9 +1,19 @@
+import { Typography } from "@material-ui/core";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 
 const Post = ({ posts }) => {
   return (
     <div>
+      <Typography variant="h2" gutterBottom>
+        API Call Example
+      </Typography>
+      <Typography variant="subtitle1" gutterBottom>
+        I only support server side rendering
+      </Typography>
+      <Typography variant="subtitle1" gutterBottom>
+        Navigate Here &darr;
+      </Typography>
       {posts.map((x, i) => (
         <div key={i}>
           <Link as={`/${x.id}/${x.title}`} href="/[postId]/[title]">
