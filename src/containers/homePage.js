@@ -42,6 +42,12 @@ const HomePage = () => {
           5. Custom CSS per Element/Module
         </Link>
       </NLink>
+      <br />
+      <NLink href="/apollo">
+        <Link href="#" color="inherit">
+          6. Apollo Client Demo
+        </Link>
+      </NLink>
     </div>
   );
 };

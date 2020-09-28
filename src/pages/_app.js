@@ -5,9 +5,12 @@ import { ThemeProvider } from "@material-ui/core/styles";
 import CssBaseline from "@material-ui/core/CssBaseline";
 import theme from "../theme";
 import "../styles/globals.css";
+import { ApolloProvider } from "@apollo/client";
+import { useApollo } from "../../apollo/client";
 
 export default function MyApp(props) {
   const { Component, pageProps } = props;
+  const apolloClient = useApollo(pageProps.initialApolloState);
 
   React.useEffect(() => {
     // Remove the server-side injected CSS.
@@ -18,7 +21,7 @@ export default function MyApp(props) {
   }, []);
 
   return (
-    <React.Fragment>
+    <ApolloProvider client={apolloClient}>
       <Head>
         <title>Next JS Demo</title>
         <meta
@@ -31,7 +34,7 @@ export default function MyApp(props) {
         <CssBaseline />
         <Component {...pageProps} />
       </ThemeProvider>
-    </React.Fragment>
+    </ApolloProvider>
   );
 }
 
