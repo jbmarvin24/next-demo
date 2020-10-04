@@ -48,6 +48,12 @@ const HomePage = () => {
           6. Apollo Client Demo
         </Link>
       </NLink>
+      <br />
+      <NLink href="/context">
+        <Link href="#" color="inherit">
+          7. React Context Demo for Global State Management
+        </Link>
+      </NLink>
     </div>
   );
 };
