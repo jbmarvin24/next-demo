@@ -1,6 +1,6 @@
-import { Link, Typography } from "@material-ui/core";
-import Head from "next/head";
-import NLink from "next/link";
+import { Link, Typography } from '@material-ui/core';
+import Head from 'next/head';
+import NLink from 'next/link';
 
 const HomePage = () => {
   return (
@@ -52,6 +52,11 @@ const HomePage = () => {
       <NLink href="/context">
         <Link href="#" color="inherit">
           7. React Context Demo for Global State Management
+        </Link>
+      </NLink>
+      <NLink href="/fileupload">
+        <Link href="#" color="inherit">
+          8. Graphql File Upload Example
         </Link>
       </NLink>
     </div>
