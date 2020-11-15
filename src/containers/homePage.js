@@ -65,6 +65,12 @@ const HomePage = () => {
           9. Login w/ Facebook Demo
         </Link>
       </NLink>
+      <br />
+      <NLink href="/googlelogin">
+        <Link href="#" color="inherit">
+          9. Login w/ Google Demo
+        </Link>
+      </NLink>
     </div>
   );
 };
