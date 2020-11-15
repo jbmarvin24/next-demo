@@ -12,7 +12,6 @@ const HomePage = () => {
       <Typography variant="h2" gutterBottom>
         Next JS Demo
       </Typography>
-
       <Typography variant="h4" gutterBottom>
         Sample SEO Website
       </Typography>
@@ -54,9 +53,16 @@ const HomePage = () => {
           7. React Context Demo for Global State Management
         </Link>
       </NLink>
+      <br />
       <NLink href="/fileupload">
         <Link href="#" color="inherit">
           8. Graphql File Upload Example
+        </Link>
+      </NLink>
+      <br />
+      <NLink href="/facebooklogin">
+        <Link href="#" color="inherit">
+          9. Login w/ Facebook Demo
         </Link>
       </NLink>
     </div>

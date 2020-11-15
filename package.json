@@ -18,6 +18,10 @@
     "react": "16.13.1",
     "react-dom": "16.13.1",
     "react-dropzone": "^11.2.2",
+    "react-facebook-login": "^4.1.1",
     "yup": "^0.29.3"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0"
   }
 }
