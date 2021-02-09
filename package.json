@@ -3,21 +3,24 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev -p 3002",
     "build": "next build",
-    "start": "next start -p $PORT"
+    "start": "next start"
   },
   "dependencies": {
     "@apollo/client": "^3.2.1",
     "@material-ui/core": "^4.11.0",
     "@material-ui/icons": "^4.9.1",
+    "@material-ui/lab": "^4.0.0-alpha.57",
     "apollo-upload-client": "^14.1.2",
     "formik": "^2.1.6",
+    "get-orientation": "^1.1.2",
     "graphql": "^15.3.0",
     "next": "9.5.3",
     "react": "16.13.1",
     "react-dom": "16.13.1",
     "react-dropzone": "^11.2.2",
+    "react-easy-crop": "^3.3.1",
     "react-facebook-login": "^4.1.1",
     "react-google-login": "^5.1.22",
     "yup": "^0.29.3"
