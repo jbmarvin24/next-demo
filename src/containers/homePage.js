@@ -71,6 +71,12 @@ const HomePage = () => {
           9. Login w/ Google Demo
         </Link>
       </NLink>
+      <br />
+      <NLink href="/imagecrop">
+        <Link href="#" color="inherit">
+          10. Image Crop
+        </Link>
+      </NLink>
     </div>
   );
 };
